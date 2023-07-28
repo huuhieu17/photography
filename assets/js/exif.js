@@ -98,6 +98,7 @@
     var TiffTags = EXIF.TiffTags = {
         0x0100 : "ImageWidth",
         0x0101 : "ImageHeight",
+        0xA434 : "LensModel",    
         0x8769 : "ExifIFDPointer",
         0x8825 : "GPSInfoIFDPointer",
         0xA005 : "InteroperabilityIFDPointer",
