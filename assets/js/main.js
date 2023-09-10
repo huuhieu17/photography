@@ -219,7 +219,7 @@
             exifDatas = {};
 
         // Thumbs.
-        $main.children('.thumb').each(function () {
+        $main.children('.thumb').reverse().each(function () {
 
             var $this = $(this),
                 $image = $this.find('.image'), $image_img = $image.children('img'),
